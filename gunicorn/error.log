@@ -1,0 +1,120 @@
+[2024-06-28 10:43:41 +0000] [861837] [INFO] Starting gunicorn 22.0.0
+[2024-06-28 10:43:41 +0000] [861837] [INFO] Listening at: http://127.0.0.1:5000 (861837)
+[2024-06-28 10:43:41 +0000] [861837] [INFO] Using worker: sync
+[2024-06-28 10:43:41 +0000] [861838] [INFO] Booting worker with pid: 861838
+[2024-06-28 10:43:41 +0000] [861839] [INFO] Booting worker with pid: 861839
+[2024-06-28 10:43:41 +0000] [861840] [INFO] Booting worker with pid: 861840
+[2024-06-28 10:43:41 +0000] [861841] [INFO] Booting worker with pid: 861841
+[2024-06-28 10:45:42 +0000] [861837] [INFO] Handling signal: int
+[2024-06-28 10:45:42 +0000] [861840] [INFO] Worker exiting (pid: 861840)
+[2024-06-28 10:45:42 +0000] [861841] [INFO] Worker exiting (pid: 861841)
+[2024-06-28 10:45:42 +0000] [861839] [INFO] Worker exiting (pid: 861839)
+[2024-06-28 10:45:42 +0000] [861838] [INFO] Worker exiting (pid: 861838)
+[2024-06-28 10:45:42 +0000] [861837] [INFO] Shutting down: Master
+[2024-06-28 11:13:26 +0000] [862025] [INFO] Starting gunicorn 22.0.0
+[2024-06-28 11:13:26 +0000] [862025] [INFO] Listening at: http://127.0.0.1:5000 (862025)
+[2024-06-28 11:13:26 +0000] [862025] [INFO] Using worker: sync
+[2024-06-28 11:13:26 +0000] [862026] [INFO] Booting worker with pid: 862026
+[2024-06-28 11:13:26 +0000] [862027] [INFO] Booting worker with pid: 862027
+[2024-06-28 11:13:26 +0000] [862028] [INFO] Booting worker with pid: 862028
+[2024-06-28 11:13:26 +0000] [862029] [INFO] Booting worker with pid: 862029
+[2024-06-28 11:13:31 +0000] [862025] [INFO] Handling signal: hup
+[2024-06-28 11:13:31 +0000] [862025] [INFO] Hang up: Master
+[2024-06-28 11:13:31 +0000] [862025] [ERROR] Worker (pid:862027) was sent SIGHUP!
+[2024-06-28 11:13:31 +0000] [862025] [ERROR] Worker (pid:862026) was sent SIGHUP!
+[2024-06-28 11:13:31 +0000] [862025] [ERROR] Worker (pid:862028) was sent SIGHUP!
+[2024-06-28 11:13:31 +0000] [862025] [ERROR] Worker (pid:862029) was sent SIGHUP!
+[2024-06-28 11:13:32 +0000] [862030] [INFO] Booting worker with pid: 862030
+[2024-06-28 11:13:32 +0000] [862031] [INFO] Booting worker with pid: 862031
+[2024-06-28 11:13:32 +0000] [862032] [INFO] Booting worker with pid: 862032
+[2024-06-28 11:13:32 +0000] [862033] [INFO] Booting worker with pid: 862033
+[2024-06-28 12:34:12 +0000] [862025] [INFO] Handling signal: term
+[2024-06-28 12:34:12 +0000] [862031] [INFO] Worker exiting (pid: 862031)
+[2024-06-28 12:34:12 +0000] [862032] [INFO] Worker exiting (pid: 862032)
+[2024-06-28 12:34:12 +0000] [862033] [INFO] Worker exiting (pid: 862033)
+[2024-06-28 12:34:12 +0000] [862030] [INFO] Worker exiting (pid: 862030)
+[2024-06-28 12:34:12 +0000] [862025] [INFO] Shutting down: Master
+[2024-06-28 12:43:53 +0000] [864067] [INFO] Starting gunicorn 22.0.0
+[2024-06-28 12:43:53 +0000] [864067] [INFO] Listening at: http://127.0.0.1:5000 (864067)
+[2024-06-28 12:43:53 +0000] [864067] [INFO] Using worker: sync
+[2024-06-28 12:43:53 +0000] [864068] [INFO] Booting worker with pid: 864068
+[2024-06-28 12:43:53 +0000] [864069] [INFO] Booting worker with pid: 864069
+[2024-06-28 12:43:53 +0000] [864070] [INFO] Booting worker with pid: 864070
+[2024-06-28 12:43:53 +0000] [864071] [INFO] Booting worker with pid: 864071
+[2024-06-28 12:43:53 +0000] [864072] [INFO] Booting worker with pid: 864072
+[2024-06-28 12:43:53 +0000] [864073] [INFO] Booting worker with pid: 864073
+[2024-06-28 12:43:53 +0000] [864074] [INFO] Booting worker with pid: 864074
+[2024-06-28 12:43:53 +0000] [864075] [INFO] Booting worker with pid: 864075
+[2024-06-28 12:43:54 +0000] [864076] [INFO] Booting worker with pid: 864076
+[2024-06-28 12:43:54 +0000] [864077] [INFO] Booting worker with pid: 864077
+[2024-06-28 12:43:54 +0000] [864078] [INFO] Booting worker with pid: 864078
+[2024-06-28 12:43:54 +0000] [864079] [INFO] Booting worker with pid: 864079
+[2024-06-28 12:44:20 +0000] [864067] [INFO] Handling signal: hup
+[2024-06-28 12:44:20 +0000] [864067] [INFO] Hang up: Master
+[2024-06-28 12:44:20 +0000] [864067] [ERROR] Worker (pid:864069) was sent SIGHUP!
+[2024-06-28 12:44:20 +0000] [864067] [ERROR] Worker (pid:864071) was sent SIGHUP!
+[2024-06-28 12:44:20 +0000] [864067] [ERROR] Worker (pid:864073) was sent SIGHUP!
+[2024-06-28 12:44:20 +0000] [864067] [ERROR] Worker (pid:864075) was sent SIGHUP!
+[2024-06-28 12:44:20 +0000] [864067] [ERROR] Worker (pid:864077) was sent SIGHUP!
+[2024-06-28 12:44:20 +0000] [864067] [ERROR] Worker (pid:864078) was sent SIGHUP!
+[2024-06-28 12:44:20 +0000] [864067] [ERROR] Worker (pid:864068) was sent SIGHUP!
+[2024-06-28 12:44:20 +0000] [864067] [ERROR] Worker (pid:864070) was sent SIGHUP!
+[2024-06-28 12:44:20 +0000] [864067] [ERROR] Worker (pid:864072) was sent SIGHUP!
+[2024-06-28 12:44:20 +0000] [864067] [ERROR] Worker (pid:864074) was sent SIGHUP!
+[2024-06-28 12:44:20 +0000] [864067] [ERROR] Worker (pid:864076) was sent SIGHUP!
+[2024-06-28 12:44:20 +0000] [864067] [ERROR] Worker (pid:864079) was sent SIGHUP!
+[2024-06-28 12:44:20 +0000] [864092] [INFO] Booting worker with pid: 864092
+[2024-06-28 12:44:20 +0000] [864093] [INFO] Booting worker with pid: 864093
+[2024-06-28 12:44:20 +0000] [864094] [INFO] Booting worker with pid: 864094
+[2024-06-28 12:44:20 +0000] [864095] [INFO] Booting worker with pid: 864095
+[2024-06-28 12:44:20 +0000] [864096] [INFO] Booting worker with pid: 864096
+[2024-06-28 12:44:20 +0000] [864097] [INFO] Booting worker with pid: 864097
+[2024-06-28 12:44:20 +0000] [864098] [INFO] Booting worker with pid: 864098
+[2024-06-28 12:44:20 +0000] [864099] [INFO] Booting worker with pid: 864099
+[2024-06-28 12:44:20 +0000] [864100] [INFO] Booting worker with pid: 864100
+[2024-06-28 12:44:20 +0000] [864101] [INFO] Booting worker with pid: 864101
+[2024-06-28 12:44:20 +0000] [864102] [INFO] Booting worker with pid: 864102
+[2024-06-28 12:44:20 +0000] [864103] [INFO] Booting worker with pid: 864103
+[2024-06-28 12:47:39 +0000] [864067] [INFO] Handling signal: term
+[2024-06-28 12:47:39 +0000] [864092] [INFO] Worker exiting (pid: 864092)
+[2024-06-28 12:47:39 +0000] [864093] [INFO] Worker exiting (pid: 864093)
+[2024-06-28 12:47:39 +0000] [864094] [INFO] Worker exiting (pid: 864094)
+[2024-06-28 12:47:39 +0000] [864099] [INFO] Worker exiting (pid: 864099)
+[2024-06-28 12:47:39 +0000] [864096] [INFO] Worker exiting (pid: 864096)
+[2024-06-28 12:47:39 +0000] [864103] [INFO] Worker exiting (pid: 864103)
+[2024-06-28 12:47:39 +0000] [864097] [INFO] Worker exiting (pid: 864097)
+[2024-06-28 12:47:39 +0000] [864102] [INFO] Worker exiting (pid: 864102)
+[2024-06-28 12:47:39 +0000] [864098] [INFO] Worker exiting (pid: 864098)
+[2024-06-28 12:47:39 +0000] [864095] [INFO] Worker exiting (pid: 864095)
+[2024-06-28 12:47:39 +0000] [864100] [INFO] Worker exiting (pid: 864100)
+[2024-06-28 12:47:39 +0000] [864101] [INFO] Worker exiting (pid: 864101)
+[2024-06-28 12:47:40 +0000] [864067] [INFO] Shutting down: Master
+[2024-06-28 12:50:44 +0000] [864390] [INFO] Starting gunicorn 22.0.0
+[2024-06-28 12:50:44 +0000] [864390] [INFO] Listening at: http://127.0.0.1:5000 (864390)
+[2024-06-28 12:50:44 +0000] [864390] [INFO] Using worker: sync
+[2024-06-28 12:50:44 +0000] [864391] [INFO] Booting worker with pid: 864391
+[2024-06-28 12:50:44 +0000] [864392] [INFO] Booting worker with pid: 864392
+[2024-06-28 12:50:44 +0000] [864393] [INFO] Booting worker with pid: 864393
+[2024-06-28 12:50:58 +0000] [864390] [INFO] Handling signal: int
+[2024-06-28 12:50:58 +0000] [864393] [INFO] Worker exiting (pid: 864393)
+[2024-06-28 12:50:58 +0000] [864391] [INFO] Worker exiting (pid: 864391)
+[2024-06-28 12:50:59 +0000] [864390] [INFO] Shutting down: Master
+[2024-06-28 12:51:04 +0000] [864408] [INFO] Starting gunicorn 22.0.0
+[2024-06-28 12:51:04 +0000] [864408] [INFO] Listening at: http://127.0.0.1:5000 (864408)
+[2024-06-28 12:51:04 +0000] [864408] [INFO] Using worker: sync
+[2024-06-28 12:51:04 +0000] [864409] [INFO] Booting worker with pid: 864409
+[2024-06-28 12:51:04 +0000] [864410] [INFO] Booting worker with pid: 864410
+[2024-06-28 12:51:04 +0000] [864411] [INFO] Booting worker with pid: 864411
+[2024-06-28 13:24:45 +0000] [864408] [INFO] Handling signal: hup
+[2024-06-28 13:24:45 +0000] [864408] [INFO] Hang up: Master
+[2024-06-28 13:24:45 +0000] [864408] [ERROR] Worker (pid:864409) was sent SIGHUP!
+[2024-06-28 13:24:45 +0000] [864408] [ERROR] Worker (pid:864410) was sent SIGHUP!
+[2024-06-28 13:24:45 +0000] [864408] [ERROR] Worker (pid:864411) was sent SIGHUP!
+[2024-06-28 13:24:45 +0000] [864705] [INFO] Booting worker with pid: 864705
+[2024-06-28 13:24:45 +0000] [864706] [INFO] Booting worker with pid: 864706
+[2024-06-28 13:24:45 +0000] [864707] [INFO] Booting worker with pid: 864707
+[2024-07-16 04:33:47 +0000] [864408] [INFO] Handling signal: term
+[2024-07-16 04:33:47 +0000] [864707] [INFO] Worker exiting (pid: 864707)
+[2024-07-16 04:33:47 +0000] [864705] [INFO] Worker exiting (pid: 864705)
+[2024-07-16 04:33:47 +0000] [864706] [INFO] Worker exiting (pid: 864706)
+[2024-07-16 04:33:47 +0000] [864408] [INFO] Shutting down: Master

@@ -1,0 +1,31 @@
+# Using the official slimmed Python image as the server is weak 
+FROM python:3.12-slim
+
+# Update and install required packages
+RUN apt-get update && \
+    apt-get install -y build-essential pkg-config default-mysql-client default-libmysqlclient-dev && \
+    rm -rf /var/lib/apt/lists/*
+
+# Set the working directory for the flask app
+WORKDIR /app
+
+# Copyng the pip requirements file
+COPY requirements.txt requirements.txt
+
+# Install the dependencies mentional in requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy the rest of the application code
+COPY . .
+
+# Exposing the application port on localhost
+EXPOSE 5000
+
+# Setting environment variables as they were in server
+ENV FLASK_APP=app
+ENV FLASK_RUN_HOST=0.0.0.0
+
+# Run the Flask application using gunicorn WSGI
+CMD ["gunicorn", "--workers=4", "--bind", "0.0.0.0:5000", "app:app"]
+
+
